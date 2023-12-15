@@ -1,0 +1,12 @@
+:root{
+    /*Colors*/
+    --fundo:hsl(220, 15%, 55%);
+    --titulo: hsl(218, 44%, 22%);
+    --texto: hsl(212, 45%, 89%);
+    --branco: hsl(0, 0%, 100%);
+}
+
+body{
+    font-family: url("https://fonts.google.com/specimen/Outfit");
+}
+
