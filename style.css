@@ -1,6 +1,6 @@
 :root{
     /*Colors*/
-    --fundo:hsl(220, 15%, 55%);
+    --fundo:hsl(214, 61%, 46%);
     --titulo: hsl(218, 44%, 22%);
     --texto: hsl(212, 45%, 89%);
     --branco: hsl(0, 0%, 100%);
@@ -8,5 +8,27 @@
 
 body{
     font-family: url("https://fonts.google.com/specimen/Outfit");
+    background: var(--fundo);
+    margin: 0;
+    padding: 0;
 }
 
+.qrcode{
+    width: 400px;
+    border-radius: 5px;
+}
+
+.conteudo{
+    background: var(--branco);
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    align-items: center;
+    margin: auto;
+}
+
+
+
+.conteudo > p{
+    font-size: 15px;
+}
